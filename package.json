@@ -1,0 +1,37 @@
+{
+  "name": "pairx-core-token",
+  "version": "1.0.0",
+  "description": "pairx.finance token contract",
+  "main": " ",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pairx-finance/pairx-core-token.git"
+  },
+  "keywords": [
+    "pairx.finance",
+    "token"
+  ],
+  "author": "five.dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pairx-finance/pairx-core-token/issues"
+  },
+  "homepage": "https://pairx.finance" ,
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.0.7"
+  },
+  "scripts" : {
+    "dev": "npx hardhat run scripts/deploy-pairx-script.js --network genache",
+    "kovan": "npx hardhat run scripts/deploy-pairx-script.js --network kovan",
+    "ropsten": "npx hardhat run scripts/deploy-pairx-script.js --network ropsten",
+    "main": "npx hardhat run scripts/deploy-pairx-script --network main"
+  }
+}
