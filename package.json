@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "pairx.finance token contract",
   "main": " ",
-  "scripts": {
-    "test": " "
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pairx-finance/pairx-core-token.git"
